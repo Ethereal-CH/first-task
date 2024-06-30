@@ -48,7 +48,6 @@ p{
 h2{
     font-size: 18px;
     text-align: center;
-    font-weight: lighter;
     margin-top: 30px;
 }
 
@@ -104,4 +103,8 @@ footer a{
         width: 95%;
     }
 
+    img{
+        width: 200px;
+        height: 200px;
+    }
 }
