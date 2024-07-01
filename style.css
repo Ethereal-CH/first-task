@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(66, 66, 82);
+    background-color: rgb(37, 29, 29);
     color: white;
 }
 
@@ -20,7 +20,7 @@ header{
 header h1{
     font-family: Clicker Script;
     font-size: 45px;
-    color: orange;
+    color: rgb(168, 236, 89);
     font-weight: bold;
 }
 
@@ -38,12 +38,14 @@ img {
 
 img:hover{
     background-color: #e6b000;
-    box-shadow: 0 0 100px rgb(194, 135, 87);
+    box-shadow: 0 0 100px rgb(209, 228, 156);
     transition: 0.4s ease-in-out;
 }
 
 p{
     margin-top: 20px;
+    font-family: Playwrite NG Modern;
+    font-size: 17px;
 }
 
 h2{
@@ -95,7 +97,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: orange;
+    color: rgb(161, 247, 63);
 }
 
 
