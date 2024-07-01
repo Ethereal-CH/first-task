@@ -7,8 +7,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(37, 29, 29);
+    background-color: rgb(34, 26, 26);
     color: white;
+    line-height: 1.5;
 }
 
 header{
@@ -20,7 +21,7 @@ header{
 header h1{
     font-family: Clicker Script;
     font-size: 45px;
-    color: rgb(168, 236, 89);
+    color: rgb(206, 243, 120);
     font-weight: bold;
 }
 
@@ -45,7 +46,13 @@ img:hover{
 p{
     margin-top: 20px;
     font-family: Playwrite NG Modern;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 h2{
@@ -55,7 +62,7 @@ h2{
 }
 
 h1{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: lighter;
 }
 
@@ -73,7 +80,7 @@ li {
 }
 
 li:hover{
-    background-color: black;
+    background-color: rgb(28, 31, 23);
     color: white;
 }
 
@@ -97,7 +104,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: rgb(161, 247, 63);
+    color: rgb(205, 241, 105);
 }
 
 
@@ -116,6 +123,10 @@ footer a{
     }
     
     section p{
+        font-size: 13px;
+    }
+
+    span{
         font-size: 12px;
     }
 }
